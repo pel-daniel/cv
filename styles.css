@@ -33,5 +33,9 @@ h2 {
 }
 
 .column {
-  width: 50%;
+  width: calc(50% - 10px);
+}
+
+.column-divider {
+  flex: 0 0 20px;
 }
