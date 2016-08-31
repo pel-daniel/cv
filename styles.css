@@ -28,7 +28,7 @@ h2 {
 }
 
 .container {
-  display: flex;
+  /*display: flex;*/
   padding: 40px;
 }
 
@@ -38,4 +38,47 @@ h2 {
 
 .column-divider {
   flex: 0 0 20px;
+}
+
+.icon {
+  background: no-repeat center center;
+  background-size: contain;
+  height: 56px;
+  width: 68px;
+}
+
+.icon-eiffel {
+  background-image: url(icons/prog-langs/eiffel.png);
+}
+
+.icon-elixir {
+  background-image: url(icons/prog-langs/elixir.png);
+}
+
+.icon-elm {
+  background-image: url(icons/prog-langs/elm.svg);
+}
+
+.icon-haskell {
+  background-image: url(icons/prog-langs/haskell.png);
+}
+
+.icon-pharo {
+  background-image: url(icons/prog-langs/pharo.png);
+}
+
+.icon-racket {
+  background-image: url(icons/prog-langs/racket.png);
+}
+
+.icon-scala {
+  background-image: url(icons/prog-langs/scala.svg);
+}
+
+.icon-sml {
+  background-image: url(icons/prog-langs/sml.jpeg);
+}
+
+.prog-langs {
+  text-align: center;
 }
