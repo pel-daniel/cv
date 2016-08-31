@@ -47,6 +47,8 @@ h2 {
   width: 68px;
 }
 
+/*Programming languages icons*/
+
 .icon-eiffel {
   background-image: url(icons/prog-langs/eiffel.png);
 }
@@ -77,6 +79,36 @@ h2 {
 
 .icon-sml {
   background-image: url(icons/prog-langs/sml.jpeg);
+}
+
+/*Natural languages icons*/
+
+.icon-br {
+  background-image: url(icons/nat-langs/br.svg);
+}
+
+.icon-de {
+  background-image: url(icons/nat-langs/de.svg);
+}
+
+.icon-fr {
+  background-image: url(icons/nat-langs/fr.svg);
+}
+
+.icon-mx {
+  background-image: url(icons/nat-langs/mx.svg);
+}
+
+.icon-ru {
+  background-image: url(icons/nat-langs/ru.svg);
+}
+
+.icon-us {
+  background-image: url(icons/nat-langs/us.svg);
+}
+
+.nat-langs .icon {
+  display: inline-block;
 }
 
 .prog-langs {
