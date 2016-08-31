@@ -107,10 +107,6 @@ h2 {
   background-image: url(icons/nat-langs/us.svg);
 }
 
-.nat-langs .icon {
-  display: inline-block;
-}
-
 .prog-langs {
   text-align: center;
 }
