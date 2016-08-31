@@ -43,8 +43,58 @@ h2 {
 .icon {
   background: no-repeat center center;
   background-size: contain;
-  height: 56px;
-  width: 68px;
+  height: 36px;
+  width: 36px;
+}
+
+/*Work experience icons*/
+
+.icon-csharp {
+  background-image: url(icons/work-exp/csharp.svg);
+}
+
+.icon-css {
+  background-image: url(icons/work-exp/css.png);
+}
+
+.icon-git {
+  background-image: url(icons/work-exp/git.svg);
+}
+
+.icon-html {
+  background-image: url(icons/work-exp/html.png);
+}
+
+.icon-js {
+  background-image: url(icons/work-exp/js.svg);
+}
+
+.icon-mssql {
+  background-image: url(icons/work-exp/mssql.jpg);
+}
+
+.icon-psql {
+  background-image: url(icons/work-exp/psql.svg);
+}
+
+.icon-rails {
+  background-image: url(icons/work-exp/rails.png);
+}
+
+.icon-react {
+  background-image: url(icons/work-exp/react.svg);
+}
+
+.icon-redux {
+  background-image: url(icons/work-exp/redux.svg);
+}
+
+.icon-ruby {
+  background-image: url(icons/work-exp/ruby.svg);
+}
+
+.icon-vs {
+  background-image: url(icons/work-exp/vs.svg);
 }
 
 /*Programming languages icons*/
@@ -109,4 +159,26 @@ h2 {
 
 .prog-langs {
   text-align: center;
+}
+
+.prog-langs .icon {
+  margin-left: 10px;
+}
+
+.tech {
+  display: inline-block;
+  text-align: center;
+  font-size: 11px;
+  width: 36px;
+  vertical-align: top;
+}
+
+.work-exp_row {
+  margin-bottom: 10px;
+}
+
+.work-exp_title {
+  display: inline-block;
+  line-height: 40px;
+  width: 240px;
 }
