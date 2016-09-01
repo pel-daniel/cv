@@ -89,6 +89,10 @@ h2 {
   font-size: 18px;
 }
 
+.contact-item {
+  margin-bottom: 4px;
+}
+
 .contact-item > a {
   color: rgba(255, 255, 255, 0.7);
 }
