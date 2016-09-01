@@ -186,8 +186,8 @@ h2 {
 .flag {
   border: 1px solid #777777;
   box-sizing: content-box;
-  height: 42px;
-  width: 56px;
+  height: 45px;
+  width: 65px;
 }
 
 /*Work experience icons*/
@@ -277,25 +277,25 @@ h2 {
 /*Natural languages icons*/
 
 .icon-br {
-  background-image: url(icons/nat-langs/br.svg);
+  background-image: url(icons/nat-langs/br.png);
 }
 
 .icon-de {
-  background-image: url(icons/nat-langs/de.svg);
+  background-image: url(icons/nat-langs/de.png);
 }
 
 .icon-fr {
-  background-image: url(icons/nat-langs/fr.svg);
+  background-image: url(icons/nat-langs/fr.png);
 }
 
 .icon-mx {
-  background-image: url(icons/nat-langs/mx.svg);
+  background-image: url(icons/nat-langs/mx.png);
 }
 
 .icon-ru {
-  background-image: url(icons/nat-langs/ru.svg);
+  background-image: url(icons/nat-langs/ru.png);
 }
 
 .icon-us {
-  background-image: url(icons/nat-langs/us.svg);
+  background-image: url(icons/nat-langs/us.png);
 }
