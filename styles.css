@@ -5,6 +5,11 @@ body {
   width: 1000px;
 }
 
+a {
+  color: #985E6D;
+  text-decoration: none;
+}
+
 div {
   box-sizing: border-box;
 }
@@ -38,6 +43,23 @@ h2 {
 
 .column-divider {
   flex: 0 0 20px;
+}
+
+/*Screenshots*/
+
+.screenshot {
+  background: no-repeat center center;
+  background-size: contain;
+  height: 120px;
+  width: 240px;
+}
+
+.lambda-bricks_img {
+  background-image: url(images/lambdabricks.png);
+}
+
+.git-init_img {
+  background-image: url(images/git-init.png);
 }
 
 .icon {
