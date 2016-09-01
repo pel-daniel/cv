@@ -34,7 +34,7 @@ h2 {
 
 .container {
   /*display: flex;*/
-  padding: 40px;
+  padding: 2px 40px;
 }
 
 .col2 {
@@ -51,7 +51,7 @@ h2 {
 }
 
 .section {
-  border-bottom: 2px solid #192231;
+  border-bottom: 1px solid rgba(25, 34, 49, 0.7);
   padding: 15px 0;
 }
 
@@ -81,6 +81,57 @@ h2 {
   z-index: -1;
 }
 
+.lang {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.nat-langs {
+  vertical-align: top;
+}
+
+.nat-langs_row {
+  margin-bottom: 3px;
+}
+
+.nat-langs_title {
+  display: inline-block;
+  line-height: 29px;
+  vertical-align: top;
+  width: 100px;
+}
+
+.prog-langs {
+  width: 315px;
+}
+
+.prog-langs_row {
+  margin-bottom: 5px;
+}
+
+.tech {
+  display: inline-block;
+  font-size: 11px;
+  margin-right: 2px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tech-small {
+  margin-right: 0;
+  width: 40px;
+}
+
+.work-exp_row {
+  margin-bottom: 10px;
+}
+
+.work-exp_title {
+  display: inline-block;
+  line-height: 40px;
+  width: 240px;
+}
+
 /*Screenshots*/
 
 .screenshot {
@@ -102,17 +153,25 @@ h2 {
   background-image: url(images/git-init.png);
 }
 
+/*Icons*/
+
 .icon {
   background: no-repeat center center;
   background-size: contain;
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
+}
+
+.icon-large {
+  height: 54px;
+  width: 54px;
 }
 
 .flag {
   border: 1px solid #777777;
   box-sizing: content-box;
-  height: 27px;
+  height: 42px;
+  width: 56px;
 }
 
 /*Work experience icons*/
@@ -223,36 +282,4 @@ h2 {
 
 .icon-us {
   background-image: url(icons/nat-langs/us.svg);
-}
-
-.nat-langs_row {
-  margin-bottom: 5px;
-}
-
-.nat-langs_title {
-  display: inline-block;
-  line-height: 29px;
-  width: 100px;
-}
-
-.prog-langs_row {
-  margin-bottom: 5px;
-}
-
-.tech {
-  display: inline-block;
-  text-align: center;
-  font-size: 11px;
-  width: 36px;
-  vertical-align: top;
-}
-
-.work-exp_row {
-  margin-bottom: 10px;
-}
-
-.work-exp_title {
-  display: inline-block;
-  line-height: 40px;
-  width: 240px;
 }
