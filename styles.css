@@ -47,6 +47,12 @@ h2 {
   width: 36px;
 }
 
+.flag {
+  border: 1px solid #777777;
+  box-sizing: content-box;
+  height: 27px;
+}
+
 /*Work experience icons*/
 
 .icon-csharp {
@@ -155,6 +161,16 @@ h2 {
 
 .icon-us {
   background-image: url(icons/nat-langs/us.svg);
+}
+
+.nat-langs_row {
+  margin-bottom: 5px;
+}
+
+.nat-langs_title {
+  display: inline-block;
+  line-height: 29px;
+  width: 100px;
 }
 
 .prog-langs_row {
