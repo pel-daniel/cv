@@ -37,6 +37,11 @@ h2 {
   padding: 40px;
 }
 
+.col2 {
+  display: inline-block;
+  margin-right: 8px;
+}
+
 .column {
   width: calc(50% - 10px);
 }
@@ -45,13 +50,44 @@ h2 {
   flex: 0 0 20px;
 }
 
+.section {
+  border-bottom: 2px solid #192231;
+  padding: 15px 0;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.section > div {
+  display: inline-block;
+}
+
+.summary {
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 17px;
+  padding: 5px 40px 0 0;
+  vertical-align: top;
+  width: 247px;
+}
+
+.summary-background {
+  background-color: #192231;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 150px;
+  width: 287px;
+  z-index: -1;
+}
+
 /*Screenshots*/
 
 .screenshot {
   background: no-repeat center center;
   background-size: contain;
-  height: 120px;
-  width: 240px;
+  height: 190px;
+  width: 315px;
 }
 
 .threedlife_img {
