@@ -25,13 +25,6 @@ h2 {
   padding-bottom: 0.15em;
 }
 
-.header {
-  background-color: #494E6B;
-  color: white;
-  height: 150px;
-  padding: 20px;
-}
-
 .container {
   /*display: flex;*/
   padding: 2px 40px;
@@ -48,6 +41,15 @@ h2 {
 
 .column-divider {
   flex: 0 0 20px;
+}
+
+.header {
+  background-color: #494E6B;
+  /*background: linear-gradient(135deg, #494e6b 66%,#98878f 98%);*/
+  /*background: linear-gradient(to right, #494e6b 28%,#98878f 98%);*/
+  color: rgba(255, 255, 255, 0.7);
+  height: 150px;
+  padding: 15px 40px;
 }
 
 .section {
@@ -79,6 +81,16 @@ h2 {
   top: 150px;
   width: 287px;
   z-index: -1;
+}
+
+.contact-information {
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+}
+
+.header_name {
+  display: inline-block;
 }
 
 .lang {
