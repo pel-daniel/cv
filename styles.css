@@ -54,6 +54,10 @@ h2 {
   width: 240px;
 }
 
+.threedlife_img {
+  background-image: url(images/3dlife.png);
+}
+
 .lambda-bricks_img {
   background-image: url(images/lambdabricks.png);
 }
