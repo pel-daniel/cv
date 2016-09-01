@@ -157,12 +157,8 @@ h2 {
   background-image: url(icons/nat-langs/us.svg);
 }
 
-.prog-langs {
-  text-align: center;
-}
-
-.prog-langs .icon {
-  margin-left: 10px;
+.prog-langs_row {
+  margin-bottom: 5px;
 }
 
 .tech {
