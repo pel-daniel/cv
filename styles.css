@@ -67,8 +67,9 @@ h2 {
 
 .summary {
   color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
   margin-right: 17px;
-  padding: 5px 40px 0 0;
+  padding: 5px 32px 0 0;
   vertical-align: top;
   width: 247px;
 }
@@ -78,7 +79,8 @@ h2 {
   height: 100%;
   left: 0;
   position: absolute;
-  top: 150px;
+  top: 149px;
+  /*top: 0;*/
   width: 287px;
   z-index: -1;
 }
@@ -190,7 +192,7 @@ h2 {
 }
 
 .flag {
-  border: 1px solid #777777;
+  background-color: #777777;
   box-sizing: content-box;
   height: 45px;
   width: 65px;
