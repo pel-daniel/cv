@@ -25,9 +25,14 @@ h2 {
   padding-bottom: 0.15em;
 }
 
+/*@media print {
+  .container { position: inherit; }
+  .summary-background { top: 150px; }
+}*/
+
 .container {
-  /*display: flex;*/
   padding: 2px 40px;
+  position: absolute;
 }
 
 .col2 {
@@ -76,11 +81,11 @@ h2 {
 
 .summary-background {
   background-color: #192231;
+  bottom: 0;
   height: 100%;
   left: 0;
   position: absolute;
-  top: 149px;
-  /*top: 0;*/
+  top: 0;
   width: 287px;
   z-index: -1;
 }
