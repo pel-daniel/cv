@@ -8,6 +8,11 @@ body {
 a {
   color: #985E6D;
   text-decoration: none;
+  transition: all 250ms;
+}
+
+a:hover {
+  color: #bb6279;
 }
 
 div {
@@ -102,6 +107,10 @@ h2 {
 
 .contact-item > a {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-item > a:hover {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .header_name {
