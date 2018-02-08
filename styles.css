@@ -11,10 +11,6 @@ a {
   transition: all 250ms;
 }
 
-a:hover {
-  color: #bb6279;
-}
-
 div {
   box-sizing: border-box;
 }
@@ -171,6 +167,28 @@ h2 {
 }
 
 /*Screenshots*/
+
+.project-overview {
+  cursor: pointer;
+  display: inline-block;
+  transition: all 250ms;
+}
+
+.project-overview .project-name {
+  font-size: 16px;
+}
+
+.project-overview .project-description {
+  color: #494E6B
+}
+
+.project-overview:hover {
+  background-color: rgba(192, 201, 255, 0.2);
+}
+
+.project-overview:hover h3 {
+  color: #bb6279;
+}
 
 .screenshot {
   background: no-repeat center center;
