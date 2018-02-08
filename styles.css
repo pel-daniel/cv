@@ -110,6 +110,8 @@ h2 {
 
 .contact-item > a {
   color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  padding-right: 5px;
 }
 
 .contact-item > a:hover {
