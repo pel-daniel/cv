@@ -6,9 +6,13 @@ body {
 }
 
 a {
-  color: #985E6D;
+  color: #494E6B;
   text-decoration: none;
   transition: all 250ms;
+}
+
+a:hover {
+  background-color: rgba(192, 201, 255, 0.2);
 }
 
 div {
@@ -172,9 +176,7 @@ h2 {
 /*Screenshots*/
 
 .project-overview {
-  cursor: pointer;
   display: inline-block;
-  transition: all 250ms;
 }
 
 .project-overview .project-name {
@@ -185,8 +187,8 @@ h2 {
   color: #494E6B
 }
 
-.project-overview:hover {
-  background-color: rgba(192, 201, 255, 0.2);
+.project-overview h3 {
+  color: #985E6D;
 }
 
 .project-overview:hover h3 {
