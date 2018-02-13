@@ -38,6 +38,7 @@ h2 {
 .container {
   padding: 2px 40px;
   position: absolute;
+  width: 1000px;
 }
 
 .col2 {
