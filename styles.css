@@ -198,29 +198,30 @@ h2 {
 }
 
 .screenshot {
-  background: no-repeat center center;
-  background-size: contain;
+  background-image: url('images/spritesheet.png');
   height: 190px;
   width: 315px;
 }
 
 .threedlife_img {
-  background-image: url(images/3dlife.png);
+  background-position: -5px -5px;
+  background-size: 297%;
 }
 
 .lambda-bricks_img {
-  background-image: url(images/lambdabricks.png);
+  background-position: -2px -1517px;
+  background-size: 293%;
 }
 
 .git-init_img {
-  background-image: url(images/git-init.png);
+  background-position: -170px -327px;
+  background-size: 295%;
 }
 
 /*Icons*/
 
 .icon {
-  background: no-repeat center center;
-  background-size: contain;
+  background-image: url('images/spritesheet.png');
   height: 40px;
   width: 40px;
 }
@@ -231,117 +232,140 @@ h2 {
 }
 
 .flag {
-  box-sizing: content-box;
+  background-size: 967px;
   height: 45px;
   width: 65px;
 }
 
-/*Work experience icons*/
+.icon-br {
+  background-position: -1304px -4px;
+}
 
 .icon-csharp {
-  background-image: url(icons/work-exp/csharp.svg);
+  background-position: -97px -1px;
+  background-size: 231px;
 }
 
 .icon-css {
-  background-image: url(icons/work-exp/css.png);
-}
-
-.icon-git {
-  background-image: url(icons/work-exp/git.svg);
-}
-
-.icon-html {
-  background-image: url(icons/work-exp/html.svg);
-}
-
-.icon-js {
-  background-image: url(icons/work-exp/js.svg);
-}
-
-.icon-mssql {
-  background-image: url(icons/work-exp/mssql.jpg);
-}
-
-.icon-psql {
-  background-image: url(icons/work-exp/psql.svg);
-}
-
-.icon-rails {
-  background-image: url(icons/work-exp/rails.png);
-}
-
-.icon-react {
-  background-image: url(icons/work-exp/react.svg);
-}
-
-.icon-redux {
-  background-image: url(icons/work-exp/redux.svg);
-}
-
-.icon-ruby {
-  background-image: url(icons/work-exp/ruby.svg);
-}
-
-.icon-vs {
-  background-image: url(icons/work-exp/vs.svg);
-}
-
-/*Programming languages icons*/
-
-.icon-eiffel {
-  background-image: url(icons/prog-langs/eiffel.png);
-}
-
-.icon-elixir {
-  background-image: url(icons/prog-langs/elixir.png);
-}
-
-.icon-elm {
-  background-image: url(icons/prog-langs/elm.svg);
-}
-
-.icon-haskell {
-  background-image: url(icons/prog-langs/haskell.png);
-}
-
-.icon-pharo {
-  background-image: url(icons/prog-langs/pharo.png);
-}
-
-.icon-racket {
-  background-image: url(icons/prog-langs/racket.png);
-}
-
-.icon-scala {
-  background-image: url(icons/prog-langs/scala.svg);
-}
-
-.icon-sml {
-  background-image: url(icons/prog-langs/sml.jpeg);
-}
-
-/*Natural languages icons*/
-
-.icon-br {
-  background-image: url(icons/nat-langs/br.png);
+  background-position: -138px 0px;
+  background-size: 236px
 }
 
 .icon-de {
-  background-image: url(icons/nat-langs/de.png);
+  background-position: -1693px -4px;
+}
+
+.icon-eiffel {
+  background-position: -509px -79px;
+}
+
+.icon-elixir {
+  background-position: 284px -61px;
+  background-size: 1094px;
+}
+
+.icon-elm {
+  background-position: -674px -70px;
+  background-size: 422px;
 }
 
 .icon-fr {
-  background-image: url(icons/nat-langs/fr.png);
+  background-position: -337px -125px;
+}
+
+.icon-git {
+  background-position: 3px -652px;
+  background-size: 203px;
+}
+
+.icon-haskell {
+  background-position: -1012px -523px;
+  background-size: 400px;
+  height: 53px;
+  margin: 10px 0;
+}
+
+.icon-html {
+  background-position: -107px -100px;
+  background-size: 205px;
+}
+
+.icon-js {
+  background-position: -179px 0px;
+  background-size: 218px;
+}
+
+.icon-mssql {
+  background-position: -155px -274px;
+  background-size: 205px;
 }
 
 .icon-mx {
-  background-image: url(icons/nat-langs/mx.png);
+  background-position: -337px -178px;
+}
+
+.icon-pharo {
+  background-position: -290px -129px;
+  background-size: 689px;
+}
+
+.icon-psql {
+  background-position: -70px -120px;
+  background-size: 203px;
+}
+
+.icon-racket {
+  background-position: -1811px -212px;
+  background-size: 1183px;
+}
+
+.icon-rails {
+  background-position: -634px -1041px;
+  background-size: 235px;
+}
+
+.icon-react {
+  background-position: -180px -42px;
+  background-size: 230px;
+}
+
+.icon-redux {
+  background-position: 2px -298px;
+  background-size: 500px;
 }
 
 .icon-ru {
-  background-image: url(icons/nat-langs/ru.png);
+  background-position: -1042px 345px;
+}
+
+.icon-ruby {
+  background-position: -721px -1529px;
+  background-size: 205px;
+}
+
+.icon-scala {
+  background-position: -745px -1003px;
+  background-size: 400px;
+  margin: 0 13px;
+  width: 47px;
+}
+
+.icon-sml {
+  background-position: -1164px -596px;
+  background-size: 1010px;
+}
+
+.icon-svn {
+  width: 164px;
+  height: 117px;
+  background-position: -5px -828px;
 }
 
 .icon-us {
-  background-image: url(icons/nat-langs/us.png);
+  background-position: -228px 344px;
+}
+
+.icon-vs {
+  background-position: -153px -1205px;
+  background-size: 217px;
 }
