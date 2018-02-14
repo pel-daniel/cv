@@ -248,8 +248,10 @@ h2 {
 }
 
 .icon-css {
-  background-position: -138px 0px;
-  background-size: 236px
+  background-position: -140px 0px;
+  background-size: 236px;
+  padding-left: 1px;
+  width: 36px;
 }
 
 .icon-de {
