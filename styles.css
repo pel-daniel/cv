@@ -29,15 +29,10 @@ h2 {
   padding-bottom: 0.15em;
 }
 
-/*@media print {
-  .container { position: inherit; }
-  .summary-background { top: 150px; }
-}*/
-
 .container {
-  padding: 2px 40px;
-  position: absolute;
-  width: 1000px;
+  /*padding: 2px 40px;*/
+  /*position: absolute;*/
+  /*width: 1000px;*/
 }
 
 .col2 {
@@ -63,35 +58,20 @@ h2 {
 
 .section {
   border-bottom: 1px solid rgba(25, 34, 49, 0.7);
-  padding: 15px 0;
 }
 
 .section:last-of-type {
   border-bottom: none;
 }
 
-.section > div {
+/*.section > div {
   display: inline-block;
-}
+} */
 
 .summary {
+  background-color: #192231;
   color: rgba(255, 255, 255, 0.7);
   font-size: 20px;
-  margin-right: 17px;
-  padding: 5px 32px 0 0;
-  vertical-align: top;
-  width: 247px;
-}
-
-.summary-background {
-  background-color: #192231;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 287px;
-  z-index: -1;
 }
 
 .contact-information {
@@ -113,7 +93,6 @@ h2 {
 }
 
 .lang {
-  display: inline-block;
   margin-right: 5px;
   font-size: 11px;
   text-align: center;
@@ -124,13 +103,12 @@ h2 {
 }
 
 .nat-langs_row {
+  align-items: center;
+  display: flex;
   margin-bottom: 5px;
 }
 
 .nat-langs_title {
-  display: inline-block;
-  margin-top: 11px;
-  vertical-align: top;
   width: 100px;
 }
 
@@ -161,14 +139,13 @@ h2 {
 
 .work-exp_title {
   display: inline-block;
-  line-height: 40px;
-  width: 240px;
 }
 
 /*Screenshots*/
 
 .project-overview {
   display: inline-block;
+  width: 315px;
 }
 
 .project-overview .project-name {
@@ -190,7 +167,7 @@ h2 {
 .screenshot {
   background-image: url('images/spritesheet.png');
   height: 190px;
-  width: 315px;
+  width: 100%;
 }
 
 .threedlife_img {
@@ -207,23 +184,6 @@ h2 {
   background-position: -170px -327px;
   background-size: 295%;
 }
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .header_name {
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 768px) {
-  .header_information {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-/*Icons*/
 
 .icon {
   background-image: url('images/spritesheet.png');
@@ -242,9 +202,69 @@ h2 {
   width: 65px;
 }
 
-.icon-br {
-  background-position: -1304px -4px;
+.icon-br { background-position: -1304px -4px; }
+.icon-de { background-position: -1693px -4px; }
+.icon-fr { background-position: -337px -125px; }
+.icon-mx { background-position: -337px -178px; }
+.icon-ru { background-position: -1042px 345px; }
+.icon-us { background-position: -228px 344px; }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+  body { text-align: center; }
+
+  .flag {
+    background-size: 1510px;
+    height: 66px;
+    width: 100px;
+  }
+
+  .header_name { margin-bottom: 10px; }
+
+  .nat-langs { margin-top: 15px; }
+  .nat-langs_row { width: 315px; justify-content: space-between; }
+  .nat-langs_title { text-align: left; }
+
+  .project-overview:not(:first-child) { margin-top: 15px; }
+
+  .section > div { padding: 10px 20px; }
+
+  .work-exp_title { margin-bottom: 3px; }
+
+  .lambda-bricks_img { height: 181px; }
+  .git-init_img { height: 164px; }
+  .threedlife_img { height: 183px; }
+
+  .icon-br { background-position: -526px -7px; }
+  .icon-de { background-position: -1135px -7px; }
+  .icon-fr { background-position: -526px -195px; }
+  .icon-mx { background-position: -526px -279px; }
+  .icon-ru { background-position: -117px 535px; }
+  .icon-us { background-position: -357px 535px; }
 }
+
+@media (min-width: 768px) {
+  .header_information {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .summary {
+    margin-right: 17px;
+    padding: 5px 32px 0 0;
+    vertical-align: top;
+    width: 247px;
+  }
+
+  .work-exp_title {
+    line-height: 40px;
+    width: 240px;
+  }
+}
+
+/*Icons*/
 
 .icon-csharp {
   background-position: -97px -1px;
@@ -256,10 +276,6 @@ h2 {
   background-size: 236px;
   padding-left: 1px;
   width: 36px;
-}
-
-.icon-de {
-  background-position: -1693px -4px;
 }
 
 .icon-eiffel {
@@ -274,10 +290,6 @@ h2 {
 .icon-elm {
   background-position: -674px -70px;
   background-size: 422px;
-}
-
-.icon-fr {
-  background-position: -337px -125px;
 }
 
 .icon-git {
@@ -305,10 +317,6 @@ h2 {
 .icon-mssql {
   background-position: -155px -274px;
   background-size: 205px;
-}
-
-.icon-mx {
-  background-position: -337px -178px;
 }
 
 .icon-pharo {
@@ -341,10 +349,6 @@ h2 {
   background-size: 500px;
 }
 
-.icon-ru {
-  background-position: -1042px 345px;
-}
-
 .icon-ruby {
   background-position: -721px -1529px;
   background-size: 205px;
@@ -366,10 +370,6 @@ h2 {
   width: 164px;
   height: 117px;
   background-position: -5px -828px;
-}
-
-.icon-us {
-  background-position: -228px 344px;
 }
 
 .icon-vs {
