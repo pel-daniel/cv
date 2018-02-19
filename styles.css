@@ -64,9 +64,9 @@ h2 {
   border-bottom: none;
 }
 
-/*.section > div {
-  display: inline-block;
-} */
+.section > div {
+  padding: 10px 20px;
+}
 
 .summary {
   background-color: #192231;
@@ -139,6 +139,7 @@ h2 {
 
 .work-exp_title {
   display: inline-block;
+  margin-bottom: 3px;
 }
 
 /*Screenshots*/
@@ -210,27 +211,15 @@ h2 {
 .icon-us { background-position: -228px 344px; }
 
 /* Responsive styles */
-@media (max-width: 768px) {
-
-  body { text-align: center; }
-
+@media (max-width: 705px) {
   .flag {
     background-size: 1510px;
     height: 66px;
     width: 100px;
   }
 
-  .header_name { margin-bottom: 10px; }
-
   .nat-langs { margin-top: 15px; }
   .nat-langs_row { width: 315px; justify-content: space-between; }
-  .nat-langs_title { text-align: left; }
-
-  .project-overview:not(:first-child) { margin-top: 15px; }
-
-  .section > div { padding: 10px 20px; }
-
-  .work-exp_title { margin-bottom: 3px; }
 
   .lambda-bricks_img { height: 181px; }
   .git-init_img { height: 164px; }
@@ -244,23 +233,41 @@ h2 {
   .icon-us { background-position: -357px 535px; }
 }
 
+@media (max-width: 768px) {
+  body { text-align: center; }
+
+  .header_name { margin-bottom: 10px; }
+
+  .nat-langs_title { text-align: left; }
+
+  .project-overview:not(:first-child) { margin-top: 15px; }
+
+
+  .git-init_img { background-position: -170px -315px }
+}
+
+@media (min-width: 600px) {
+  .work-exp_row {
+    align-items: center;
+    display: inline-flex;
+  }
+
+  .work-exp_title {
+    text-align: left;
+    width: 240px;
+  }
+
+  .work-exp_tech {
+    text-align: left;
+    width: 305px;
+  }
+}
+
 @media (min-width: 768px) {
   .header_information {
     align-items: center;
     display: flex;
     justify-content: space-between;
-  }
-
-  .summary {
-    margin-right: 17px;
-    padding: 5px 32px 0 0;
-    vertical-align: top;
-    width: 247px;
-  }
-
-  .work-exp_title {
-    line-height: 40px;
-    width: 240px;
   }
 }
 
